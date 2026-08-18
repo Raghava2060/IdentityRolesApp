@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Customer Dashboard";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+
+            <div class="card shadow-lg">
+
+                <div class="card-header bg-primary text-white text-center">
+                    <h2 class="mb-0">Customer Dashboard</h2>
+                </div>
+
+                <div class="card-body text-center p-5">
+
+                    <h1 class="text-primary mb-3">
+                        Welcome, Customer!
+                    </h1>
+
+                    <p class="lead">
+                        You have successfully accessed the
+                        Customer area.
+                    </p>
+
+                    <hr />
+
+                    <p class="text-muted">
+                        This page is accessible only to users
+                        assigned to the <strong>Customer</strong> role.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="btn btn-secondary">
+                            Back to Home
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

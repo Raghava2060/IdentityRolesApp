@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Administrator Dashboard";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+
+            <div class="card shadow-lg">
+
+                <div class="card-header bg-danger text-white text-center">
+                    <h2 class="mb-0">Administrator Dashboard</h2>
+                </div>
+
+                <div class="card-body text-center p-5">
+
+                    <h1 class="text-danger mb-3">
+                        Welcome, Administrator!
+                    </h1>
+
+                    <p class="lead">
+                        You have successfully accessed the
+                        Administrator area.
+                    </p>
+
+                    <hr />
+
+                    <p class="text-muted">
+                        This page is accessible only to users
+                        assigned to the <strong>Administrator</strong> role.
+                    </p>
+
+                    <div class="mt-4">
+
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="btn btn-secondary">
+                            Back to Home
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
